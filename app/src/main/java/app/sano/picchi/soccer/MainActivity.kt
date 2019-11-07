@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         //画面遷移
         val intent: Intent = Intent(this,PreviewActivity::class.java)
 
+        //音楽
         val mediaPlayer = MediaPlayer.create(this,R.raw.musp)
         val mediaPlayer2 = MediaPlayer.create(this,R.raw.muja_2)
         val mediaPlayer3 = MediaPlayer.create(this,R.raw.muar_1)
