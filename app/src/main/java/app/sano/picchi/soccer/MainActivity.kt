@@ -24,9 +24,7 @@ class MainActivity : AppCompatActivity() {
         val mediaPlayer5 = MediaPlayer.create(this,R.raw.muou2)
         val mediaPlayer6 = MediaPlayer.create(this,R.raw.mupo)
 
-
-
-
+        //画像表示
         imageViewJ.setOnClickListener {
             intent.putExtra("image",R.drawable.playerjapan)
             startActivity(intent)
